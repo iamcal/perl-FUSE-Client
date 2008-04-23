@@ -11,7 +11,7 @@ require Exporter;
 
 @ISA = qw(Exporter);
 @EXPORT = qw();
-$VERSION = '1.06';
+$VERSION = '1.07';
 
 sub new {
 	my ($class,$params) = @_;
