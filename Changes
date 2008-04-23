@@ -6,3 +6,6 @@ Revision history for Perl extension FUSE::Client.
 1.07  Thu Apr 25 14:26:52 2002
         - fixed distro tar
 
+1.08 Thu Apr 25 16:04:28 2002
+	- fixed typo in POD
+

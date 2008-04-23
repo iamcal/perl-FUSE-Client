@@ -11,7 +11,7 @@ require Exporter;
 
 @ISA = qw(Exporter);
 @EXPORT = qw();
-$VERSION = '1.07';
+$VERSION = '1.08';
 
 sub new {
 	my ($class,$params) = @_;
@@ -97,7 +97,7 @@ This method connects the client to the server.
 This method disconnects the client from the server.
 
 
-=item $s->send( $command, $parameter );
+=item $c->send( $command, $parameter );
 
 Send a FUSE formatted command message to the server, with the specified parameter.
 
